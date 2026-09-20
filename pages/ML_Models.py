@@ -5,6 +5,7 @@ Regression     → Monthly Charges
 Classification → Churn Value  (class_weight='balanced')
 """
 # streamlit run "E:\FINAL PROJECTS\P8_customer_churn\ML_Models.py"
+import streamlit as st
 
 import os, pathlib, warnings, time
 import numpy as np
@@ -13,7 +14,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit as st
 import psutil
 
 from sklearn.model_selection   import train_test_split

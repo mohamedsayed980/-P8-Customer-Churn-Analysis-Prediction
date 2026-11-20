@@ -43,7 +43,7 @@ st.markdown("""
 st.markdown("""
 <div class="hero">
   <h1>📡 Customer Churn Analysis</h1>
-  <p>End-to-end ML pipeline · 7,043 customers · IBM Telco Dataset · M3 Portfolio · Project 8 of 12</p>
+  <p>End-to-end ML pipeline · 7,043 customers · IBM Telco Dataset · M3 Portfolio · Project 8 of 13</p>
 </div>""", unsafe_allow_html=True)
 
 c1,c2,c3,c4,c5 = st.columns(5)
